@@ -1,0 +1,19 @@
+body,h1,h2,h3,h4,div,ul,li,dl,dt,dd,form,input,select,option,textarea,a,img,em,i,strong,b{ margin: 0; padding: 0;font-family:"微软雅黑";}
+li{ list-style: none;}
+input,select,option,textarea{font-family:"微软雅黑";outline: none; resize: none;}
+a{ text-decoration: none; color: #000;}
+a:hover{ color: #000;}
+a:visited{ color: #000;}
+img{ vertical-align: top; border: 0 none;}
+html{ font-size: 625%; box-sizing: border-box;}
+body{ max-width: 750px; min-width: 320px; margin: 0 auto; font-family:"微软雅黑"; background: #f1f2f2;}
+.clearfix:after{ content: "."; display: block; visibility: hidden; clear: both; height: 0; font-size: 0;}
+.body_bg1{ background: #f1f1f1;}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+  /*去除ip按钮渐变*/
+}
